@@ -1,0 +1,56 @@
+/* Tambahkan flexbox untuk mengatur posisi gambar dan teks */
+.team-member {
+    margin-bottom: 20px;
+    position: relative;
+    display: flex; /* Menggunakan flexbox */
+    align-items: center; /* Menengahkan konten secara vertikal */
+    justify-content: center; /* Menengahkan konten secara horizontal */
+}
+
+/* Modifikasi elemen img di dalam .team-member */
+/* Tambahkan flexbox untuk mengatur posisi gambar dan teks */
+.team-member {
+    margin-bottom: 20px;
+    position: relative;
+    display: flex; /* Menggunakan flexbox */
+    align-items: center; /* Menengahkan konten secara vertikal */
+    justify-content: center; /* Menengahkan konten secara horizontal */
+}
+
+/* Modifikasi elemen img di dalam .team-member */
+.team-member img {
+    width: 200px; /* Mengurangi lebar gambar */
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px; /* Mengurangi margin */
+    margin-left: 20px; /* Mengurangi margin */
+    border: 2px solid #000;
+}
+
+/* Modifikasi class nama1 dan nama2 */
+.nama1, .nama2 {
+    font-size: 25px;
+    color: #ffffff91;
+    border: 2px solid #000;
+    padding: 10px;
+    flex-grow: 1; /* Memberikan fleksibilitas pada teks */
+    text-align: left; /* Rata kiri */
+}
+
+/* Modifikasi class nama3 */
+.nama3 {
+    font-size: 40px;
+    border: 2px solid #000;
+    padding: 10px;
+    flex-grow: 1; /* Memberikan fleksibilitas pada teks */
+    text-align: left; /* Rata kiri */
+}
+
+/* Modifikasi class perkenalan */
+.perkenalan {
+    font-size: 50px;
+    color: #ffffff;
+    border: 2px solid #000;
+    padding: 10px;
+    flex-grow: 1; /* Memberikan fleksibilitas pada teks */
+}
