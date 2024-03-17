@@ -46,7 +46,6 @@ export const Deskripsi = () => {
                       <h1>Kondisi Api Menyala dan ada yang mendekat</h1>
                       <Col xs={12} md={6} xl={7}>
                         <img src={Kondisi2} alt="Kondisi2 Img"/>
-                        
                       </Col>
                         <Col xs={12} md={6} xl={5}>
                         <p>Pada Kondisi ke-2, ketika Flame sensor menyala, dan Ultrasonic membaca bahwa terdapat ada yang mendekat pada jarak telah ditentukan maka akan mengeluarkan output di LCD berupa "BAHAYA JANGEN MENDEKAT ___ cm Jarak Berbahaya Jangan mendekat" dan Buzzer akan berbunyi</p>
