@@ -39,8 +39,8 @@ export const NavBar = () => {
             <Nav.Link href="#home"className= {activeLink ==='home'?'active navbar-link':'navbar-link'}onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
             <Nav.Link href="#alat"className= {activeLink ==='alat'?'active navbar-link':'navbar-link'}onClick={() => onUpdateActiveLink('alat')}>Alat</Nav.Link>
             <Nav.Link href="#deskripsi"className= {activeLink ==='deskripsi'?'active navbar-link':'navbar-link'}onClick={() => onUpdateActiveLink('deskripsi')}>Deskripsi alat</Nav.Link>
-            <Nav.Link href="#profile"className= {activeLink ==='profile'?'active navbar-link':'navbar-link'}onClick={() => onUpdateActiveLink('profile')}>Group Profile</Nav.Link>
             <Nav.Link href="#monitor"className= {activeLink ==='monitor'?'active navbar-link':'navbar-link'}onClick={() => onUpdateActiveLink('monitor')}>Monitoring alat</Nav.Link>
+            <Nav.Link href="#profile"className= {activeLink ==='profile'?'active navbar-link':'navbar-link'}onClick={() => onUpdateActiveLink('profile')}>Group Profile</Nav.Link>
           </Nav>
             <span className="navbar-text">
                 <div className="social-icon">
