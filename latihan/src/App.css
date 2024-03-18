@@ -523,13 +523,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .footer {
   padding: 20px; /* Atur padding sesuai kebutuhan */
-  background:linear-gradient(0.21deg, rgba(170, 54, 54, 0.5) -5.91%, rgba(0, 0, 0, 0.5) 111.58%); /* Warna latar belakang footer */
+  background: linear-gradient(0.21deg, rgba(170, 54, 54, 0.5) -5.91%, rgba(0, 0, 0, 0.5) 111.58%);
+  /* Warna latar belakang footer */
+  display: flex;
+  justify-content: space-between; /* Mengatur ruang antara elemen footer__left, footer__center, dan footer__right */
+  align-items: center;
 }
 
 .footer__left,
 .footer__right {
   display: flex;
-  justify-content: space-around;
   align-items: center;
   gap: 10px; /* Jarak antara ikon dan teks */
 }
@@ -546,12 +549,73 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .footer_whatsapp-link {
-  /* Gaya link WhatsApp */
+  color: #fff; /* Warna teks link WhatsApp */
+  text-decoration: none; /* Hilangkan garis bawah */
+  font-size: 16px; /* Ukuran font untuk link WhatsApp */
+  transition: color 0.3s ease-in-out; /* Transisi warna saat hover */
 }
+
+.footer_whatsapp-link:hover {
+  color: #bbb; /* Ubah warna saat hover */
+}
+
 .modalh2 {
-  color: #000;
+  color: #000; /* Warna teks untuk h2 di dalam modal */
 }
 
 .modalp {
-  color: #000;
+  color: #000; /* Warna teks untuk paragraf di dalam modal */
+}
+
+
+/* Pages */
+.monitor {
+  padding: 80px 0;
+  position: relative;
+  background-color: #242424; /* Warna latar belakang */
+}
+
+.monitor .align-items-center {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligment ke kiri */
+}
+
+.monitor .judul {
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: left; /* Teks sejajar ke kiri */
+  margin-bottom: 40px;
+}
+
+.monitor .sensor-data {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.monitor .sensor-data li {
+  margin-bottom: 10px;
+}
+
+.monitor .sensor-data li strong {
+  color: #ffffff;
+}
+
+.monitor .sensor-data li .flame-status {
+  color: #ffffff;
+}
+
+.monitor .sensor-data li .keterangan {
+  font-style: italic;
+  color: #bbbbbb;
+}
+
+.monitor .loading {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.monitor .error {
+  color: #ff0000;
 }
